@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="내 프로필"/>
+        <item
+            android:id="@+id/nav_app_setting"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="환경설정"/>
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="사용 가이드"/>
+        <item
+            android:id="@+id/nav_question"
+            android:icon="@drawable/email"
+            android:title="문의하기"/>
+        <!--@android:drawable/sym_action_email-->
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:title="로그아웃"/>
+        <item
+            android:id="@+id/nav_withdraw"
+            android:icon="@drawable/withdraw"
+            android:title="탈퇴하기"/>
+    </group>
+</menu>

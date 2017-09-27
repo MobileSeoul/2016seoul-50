@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">집으로</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+
+    </string>
+    <string name="google_maps_roads_key"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="help_voice_arrays">
+        <item>살려</item>
+        <item>살려조</item>
+        <item>살려죠</item>
+        <item>살려주</item>
+        <item>살려줘</item>
+        <item>살려 주</item>
+        <item>살려 줘</item>
+        <item>살 려 줘</item>
+        <item>살려주세요</item>
+        <item>도와조</item>
+        <item>도와죠</item>
+        <item>도와주</item>
+        <item>도와줘</item>
+        <item>도와 주</item>
+        <item>도 와 줘</item>
+        <item>도와주세요</item>
+    </string-array>
+
+    <string-array name="age_arrays">
+        <item>[선택안함]</item>
+        <item>1~10세</item>
+        <item>11~20세</item>
+        <item>21~30세</item>
+        <item>31~40세</item>
+        <item>41~50세</item>
+        <item>51~60세</item>
+        <item>61세 이상</item>
+    </string-array>
+
+    <string-array name="gender_arrays">
+        <item>[선택안함]</item>
+        <item>남성</item>
+        <item>여성</item>
+    </string-array>
+</resources>

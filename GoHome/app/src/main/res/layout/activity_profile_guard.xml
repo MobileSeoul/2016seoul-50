@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/protector1"
+        android:text="*보호자란? 귀하가 긴급상황 시 연락을 보내는 사용자&#10;입니다. 비회원도 등록 가능합니다."/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_alignLeft="@+id/protector1"
+        android:text="*피보호자란? 지도상에서 피보호자의 위치를 확인할 수&#10;있습니다. 피보호자의 회원번호를 입력하는 인증절차를&#10;통해 등록할 수 있습니다."/>
+
+    <TextView
+    android:id="@+id/text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12.33dp"
+    android:layout_alignLeft="@+id/protector1"
+    android:layout_below="@+id/tv2"
+    android:textColor="@color/colorPrimary"
+    android:textSize="18.67dp"
+    android:text="보호자 1"/>
+
+    <EditText
+        android:id="@+id/protector1"
+        android:layout_width="282.00dp"
+        android:layout_height="33.67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/text1"
+        android:background="@drawable/protector_box"
+        android:gravity="center"
+        android:hint="보호자 번호를 입력하세요"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        />
+
+    <!--<EditText
+        android:id="@+id/protector1_code"
+        android:layout_width="282.00dp"
+        android:layout_height="33.67dp"
+        android:background="@drawable/protector_box"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/protector1"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:hint="상대의 고유번호를 입력하세요"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        />-->
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/protector1"
+        android:layout_marginTop="32dp"
+        android:layout_alignLeft="@+id/protector1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18.67dp"
+        android:text="보호자 2"/>
+
+    <EditText
+        android:id="@+id/protector2"
+        android:layout_width="282.00dp"
+        android:layout_height="33.67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/text2"
+        android:background="@drawable/protector_box"
+        android:gravity="center"
+        android:hint="보호자 번호를 입력하세요"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        />
+
+    <!--<EditText
+        android:id="@+id/protector2_code"
+        android:layout_width="282.00dp"
+        android:layout_height="33.67dp"
+        android:background="@drawable/protector_box"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/protector2"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:hint="상대의 고유번호를 입력하세요"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        />-->
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/protector2"
+        android:layout_marginTop="32dp"
+        android:layout_alignLeft="@+id/protector2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18.67dp"
+        android:text="보호자 3"/>
+
+    <EditText
+        android:id="@+id/protector3"
+        android:layout_width="282.00dp"
+        android:layout_height="33.67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/text3"
+        android:background="@drawable/protector_box"
+        android:gravity="center"
+        android:hint="보호자 번호를 입력하세요"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        />
+
+    <!--<EditText
+        android:id="@+id/protector3_code"
+        android:layout_width="282.00dp"
+        android:layout_height="33.67dp"
+        android:background="@drawable/protector_box"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/protector3"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:hint="상대의 고유번호를 입력하세요"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        />-->
+
+    <Button
+        android:id="@+id/protector_save_btn"
+        android:layout_width="213.67dp"
+        android:layout_height="33.67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40.67dp"
+        android:background="@drawable/protector_save_btn"/>
+
+</RelativeLayout>

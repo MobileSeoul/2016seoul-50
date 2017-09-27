@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android">
+    android:updatePeriodMillis="86400000"
+    android:previewImage="@drawable/ic_my_location_white_36dp"
+    android:initialLayout="@layout/appwidget_layout"
+    android:configure="com.example.choi.gohome.appWidget.AppWidgetConfigure"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard"
+    android:initialKeyguardLayout="@layout/appwidget_keyguard"
+</appwidget-provider>

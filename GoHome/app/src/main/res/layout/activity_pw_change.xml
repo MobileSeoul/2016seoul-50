@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <ImageView
+                android:id="@+id/toolbar_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/toolbar_pw" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/appbarlayout"
+        android:layout_gravity="center"
+        android:layout_marginTop="90.67dp">
+
+        <ImageView
+            android:layout_width="102.00dp"
+            android:layout_height="33.67dp"
+            android:background="@drawable/password_now" />
+
+        <EditText
+            android:id="@+id/now_pw"
+            android:layout_width="179.67dp"
+            android:layout_height="33.67dp"
+            android:background="@drawable/box_right"
+            android:gravity="center"
+            android:hint="입력"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            app:font="custom1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/new1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/now"
+        android:layout_gravity="center"
+        android:layout_marginTop="22.67dp">
+
+        <ImageView
+            android:layout_width="102.00dp"
+            android:layout_height="33.67dp"
+            android:background="@drawable/password_new" />
+
+        <EditText
+            android:id="@+id/new1_pw"
+            android:layout_width="179.67dp"
+            android:layout_height="33.67dp"
+            android:background="@drawable/box_right"
+            android:gravity="center"
+            android:hint="입력"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            app:font="custom1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/new2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/new1"
+        android:layout_gravity="center"
+        android:layout_marginTop="22.67dp">
+
+        <ImageView
+            android:layout_width="102.00dp"
+            android:layout_height="33.67dp"
+            android:background="@drawable/password_new" />
+
+        <EditText
+            android:id="@+id/new2_pw"
+            android:layout_width="179.67dp"
+            android:layout_height="33.67dp"
+            android:background="@drawable/box_right"
+            android:gravity="center"
+            android:hint="재입력"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            app:font="custom1"/>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/pw_change_btn"
+        android:layout_width="213.67dp"
+        android:layout_height="33.67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/new2"
+        android:layout_marginTop="94.67dp"
+        android:background="@drawable/password_btn"/>
+
+</RelativeLayout>

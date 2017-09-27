@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popupid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+
+                android:id="@+id/alarm_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20초 후 알림을 보냅니다."
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/alarm_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="신고 및 보호자에게 알림이 전송됩니다."
+                android:textColor="#727272" />
+
+            <TextView
+                android:id="@+id/alarm_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:text="오작동인 경우 '취소하기'를 눌러주세요.\n(홈키 제어 뒤로가기X)"
+                android:textColor="#727272" />
+
+            <TextView
+                android:id="@+id/TimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="30dp"
+                android:text="20"
+                android:textColor="#B4B4B4"
+                android:textSize="100dp"
+                android:typeface="normal" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="80dp"
+                android:layout_height="36dp"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/close"
+                android:background="#ffffff"
+                android:text="신고하기"
+                android:textColor="#212121" />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="64dp"
+                android:layout_height="36dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="8dp"
+                android:background="#ffffff"
+                android:text="취소하기"
+                android:textColor="#212121" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
